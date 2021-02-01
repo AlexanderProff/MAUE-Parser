@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Table name="Einsatzdaten BKS ILtS RLP"> 
+<Data type="STRING" header="Einsatznummer"/> 
+<Data type="STRING" header="Datum"/> 
+<Data type="STRING" header="Meldender"/> 
+<Data type="STRING" header="TelefonnummerdesMeldenden"/> 
+<Data type="STRING" header="Meldeweg"/> 
+<Data type="STRING" header="Einsatzstichwort"/> 
+<Data type="STRING" header="Meldebild"/> 
+<Data type="STRING" header="Ort"/> 
+<Data type="STRING" header="Ortsteil"/> 
+<Data type="STRING" header="Strasse"/> 
+<Data type="STRING" header="Hausnummer"/> 
+<Data type="STRING" header="Objekt"/> 
+<Data type="STRING" header="Unterobjekt"/> 
+<Data type="STRING" header="Ortszusatz"/> 
+<Data type="STRING" header="BemerkungEinsatzort"/> 
+<Data type="STRING" header="BemerkungEinsatzanlass"/> 
+<Data type="STRING" header="Rueckrufnummer"/> 
+<Data type="STRING" header="RueckrufBemerkung"/> 
+<Data type="STRING" header="Gefahrenmeldeanlage"/> 
+<Data type="STRING" header="EinsatzplanInfo"/> 
+<Data type="STRING" header="Infotext"/> 
+<Data type="STRING" header="PLZ"/> 
+<Data type="STRING" header="Strassenabschnitt"/> 
+<Data type="STRING" header="EinsatzortKoordinateNordWGS84"/> 
+<Data type="STRING" header="EinsatzortKoordinateOstWGS84"/> 
+<Data type="STRING" header="FremdAlternativeKoordinateNordWGS84"/> 
+<Data type="STRING" header="FremdAlternativeKoordinateOstWGS84"/> 
+<Data type="STRING" header="TransportartRLP"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="1200134527"/> 
+<Column value="21.12.2020"/> 
+<Column value="Herr Herbert Musterfrau"/> 
+<Column value="015154984654"/> 
+<Column value="Notruf 112"/> 
+<Column value="H2.03"/> 
+<Column value="VU Person eingeklemmt"/> 
+<Column value="Musterstadt"/> 
+<Column value="Innenstadt-West"/> 
+<Column value="Am Gerstel"/> 
+<Column value="17"/> 
+<Column value="SO Musterobjekt"/> 
+<Column value=""/> 
+<Column value="im 1. OG"/> 
+<Column value="Anfahrt durch Hinterhof"/> 
+<Column value="unklare Rauchentwicklung"/> 
+<Column value="01519898798"/> 
+<Column value="Nummer der Freundin"/> 
+<Column value=""/> 
+<Column value=""/> 
+<Column value=""/> 
+<Column value="76829"/> 
+<Column value=""/> 
+<Column value="49.20223341"/> 
+<Column value="8.11627584"/> 
+<Column value=""/> 
+<Column value=""/> 
+<Column value="8"/> 
+<Table name="Einsatzcodes"> 
+<Data type="STRING" header="EinsatzcodeRD"/> 
+<Data type="STRING" header="EinsatzcodeRDBeschreibung"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="600"/> 
+<Column value="Bereitstellungseinsatz FF"/> 
+</Row> 
+<Row> 
+<Column value="878"/> 
+<Column value="Mustereinsatzcode2"/> 
+</Row> 
+<Row> 
+<Column value="886"/> 
+<Column value="Mustereinsatzcode3"/> 
+</Row> 
+</Table> 
+<Table name="Patienten"> 
+<Data type="STRING" header="Name"/> 
+<Data type="STRING" header="Vorname"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="Mustermann"/> 
+<Column value="Hans"/> 
+</Row> 
+</Table> 
+<Table name="Einsatzmittel"> 
+<Data type="STRING" header="E-Mittel"/> 
+<Data type="STRING" header="Standortwache"/> 
+<Data type="STRING" header="Staerke"/> 
+<Data type="STRING" header="Alarm"/> 
+<Data type="STRING" header="S3"/> 
+<Data type="STRING" header="S4"/> 
+<Data type="STRING" header="S1/Rueckfahrt"/> 
+<Data type="STRING" header="Ende"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="FL LKB.ABC"/> 
+<Column value="FW LKB.ABC"/> 
+<Column value="1/1/0, 0 AGT"/> 
+<Column value="21.12.2020-11:51:07"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+</Row> 
+<Row> 
+<Column value="FL LKB.ABC 00/90-01"/> 
+<Column value="FW LKB.ABC"/> 
+<Column value="1/0/0, 1 AGT"/> 
+<Column value="21.12.2020-11:51:07"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+</Row> 
+<Row> 
+<Column value="FL LKB.ABC 01/11-01"/> 
+<Column value="FW LKB.ABC 01 A-Dorf"/> 
+<Column value="1/1/2, 3 AGT"/> 
+<Column value="21.12.2020-11:51:07"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+<Column value="--.--.-------:--:--"/> 
+</Row> 
+</Table> 
+<Table name="Meldungen"> 
+<Data type="STRING" header="Zeitpunkt"/> 
+<Data type="STRING" header="E-Mittel"/> 
+<Data type="STRING" header="Meldung"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-12:00:36"/> 
+<Column value=""/> 
+<Column value="Polizei verst&#228;ndigt"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-12:10:58"/> 
+<Column value="FL LKB.ABC 01/11-01"/> 
+<Column value="Durchz&#252;ndung, Alarmstufenerh&#246;hung"/> 
+</Row> 
+</Table> 
+<Table name="Massnahmen"> 
+<Data type="STRING" header="Zeitpunkt"/> 
+<Data type="STRING" header="Einsatzmassnahme"/> 
+<Data type="STRING" header="EinsatzmassnahmeBezeichnung"/> 
+<Row> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:10"/> 
+<Column value="LKB.ABC MA&#220; Einsatzer&#246;ffnung"/> 
+<Column value="LKB.ABC MA&#220; Einsatzer&#246;ffnung"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:11"/> 
+<Column value="CEA FL LKB.ABC (1)"/> 
+<Column value="CEA FL LKB.ABC (1)"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:11"/> 
+<Column value="CEA FL LKB.ABC 00/90-01 (1)"/> 
+<Column value="CEA FL LKB.ABC 00/90-01 (1)"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:12"/> 
+<Column value="CEA FL LKB.ABC 01/11-01 (1)"/> 
+<Column value="CEA FL LKB.ABC 01/11-01 (1)"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:12"/> 
+<Column value="CAT G CAT OT A-Dorf B B2 Grundstufe"/> 
+<Column value="DAG - FL A-Dorf SIR"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:10"/> 
+<Column value="Wache FW LKB.ABC Mail"/> 
+<Column value="FL LKB.ABC Mail"/> 
+</Row> 
+<Row> 
+<Column value="21.12.2020-11:51:10"/> 
+<Column value="Wache FW LKB.ABC Fax"/> 
+<Column value="FL LKB.ABC Fax"/> 
+</Row> 
+</Table> 
+</Row> 
+</Table>
